@@ -1,5 +1,6 @@
 {
 	"name": "WeatherStar 4000+",
+	"short_name": "WeatherStar",
 	"icons": [
 		{
 			"src": "/images/logos/logo192.png",
@@ -7,6 +8,16 @@
 			"type": "images/png"
 		}
 	],
+	"lang": "en",
+	"categories": ["weather", "information"],
+	"description": "DaMu's Fork of netbymatt's WeatherStar 4000+ from GitHub",
 	"start_url": "/",
-	"display": "standalone"
+	"theme_color": "#4040c8",
+    "background_color": "#3333ee",
+	"display": "standalone",
+    "display_override": [
+        "fullscreen",
+        "standalone"
+    ],
+	"orientation": "natural"
 }
